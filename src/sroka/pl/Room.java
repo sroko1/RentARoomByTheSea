@@ -47,7 +47,7 @@ public class Room {
         }
     }
     public void  rentInPeriod(int P1, int P2){
-        if(checkAPeriod(P1, P2) == false){
+        if(!checkAPeriod(P1, P2)){
             System.out.println("The room is occupied on this date");
         }else {
             System.out.println("Room is already booked");
